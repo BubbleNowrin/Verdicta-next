@@ -1,6 +1,6 @@
 const Pricing = () => {
     return (
-         <section className="price-sec-1 space overflow-hidden" data-bg-src="assets/img/bg/pricing-plan-1-bg.png">
+         <section className="price-sec-1 space overflow-hidden" data-bg-src="/assets/img/bg/pricing-plan-1-bg.png">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xxl-9 col-xl-10">

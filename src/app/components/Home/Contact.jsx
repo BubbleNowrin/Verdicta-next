@@ -2,10 +2,10 @@ const Contact = () => {
   return (
     <section className="space overflow-hidden" id="contact-sec">
       <div className="shape-mockup jump d-none d-xl-block" data-top="15%" data-right="3%">
-        <img src="assets/img/shape/contact-1-top.png" alt="shape img" />
+        <img src="/assets/img/shape/contact-1-top.png" alt="shape img" />
       </div>
       <div className="shape-mockup jump-reverse d-none d-xl-block" data-bottom="17%" data-left="3%">
-        <img src="assets/img/shape/about1-right-top.png" alt="shape img" />
+        <img src="/assets/img/shape/about1-right-top.png" alt="shape img" />
       </div>
 
       <div className="container">

@@ -15,9 +15,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-3 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-1.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-1.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-1.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-1.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Initial Consultation</a></h2>
@@ -30,9 +30,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-4 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-2.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-2.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-2.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-2.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Legal Advice</a></h2>
@@ -45,9 +45,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-3 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-3.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-3.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-3.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-3.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Preliminary Meeting</a></h2>
@@ -60,9 +60,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-2 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-4.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-4.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-4.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-4.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Client Consultation</a></h2>
@@ -75,9 +75,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-2 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-5.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-5.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-5.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-5.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Advice Session</a></h2>
@@ -90,9 +90,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-3 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-6.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-6.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-6.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-6.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">First Meeting</a></h2>
@@ -105,9 +105,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-4 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-7.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-7.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-7.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-7.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Introductory Discussion</a></h2>
@@ -120,9 +120,9 @@ const Case = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-xxl-3 filter-item">
               <div className="gallery-card">
                 <div className="gallery-img">
-                  <img src="assets/img/gallery/gallery-1-8.jpg" alt="gallery image" />
+                  <img src="/assets/img/gallery/gallery-1-8.jpg" alt="gallery image" />
                   <div className="gallery-content">
-                    <a href="assets/img/gallery/gallery-1-8.jpg" className="popup-icon popup-image">
+                    <a href="/assets/img/gallery/gallery-1-8.jpg" className="popup-icon popup-image">
                       <i className="fa-solid fa-eye"></i>
                     </a>
                     <h2 className="box-title"><a href="case-studies-details.html">Case Consultation</a></h2>

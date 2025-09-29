@@ -124,7 +124,7 @@ const Navbar = () => {
                 
               </li>
               <li>
-                <Link href="#">Service</Link>
+                <Link href="/service">Service</Link>
                 
               </li>
               <li><Link href="/contact">Contact</Link></li>
@@ -203,7 +203,7 @@ const Navbar = () => {
                         <Link href="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link href="#">Service</Link>
+                        <Link href="/service">Service</Link>
                        
                       </li>
                       <li><Link href="/contact">Contact</Link></li>

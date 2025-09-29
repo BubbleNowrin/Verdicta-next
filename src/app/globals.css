@@ -20817,6 +20817,11 @@ ol.wp-block-rss {
         margin-top: -45px;
     }
 
+/* Sticky header logo adjustment */
+.sticky-wrapper.sticky .header-logo img {
+    margin-top: -28px;
+}
+
 @media (max-width: 1199px) {
     .header-layout1 .header-logo .logo-bg {
         width: 350px;

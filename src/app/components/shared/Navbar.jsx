@@ -110,7 +110,7 @@ const Navbar = () => {
           </button>
           <div className="mobile-logo">
             <Link href="/">
-              <Image src="/assets/img/logo.svg" alt="Ensaf-html" width={150} height={50} />
+              <Image src="/assets/img/logo.svg" alt="Verdicta-next" width={150} height={50} />
             </Link>
           </div>
           <div className="th-mobile-menu">

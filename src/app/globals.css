@@ -20831,7 +20831,20 @@ ol.wp-block-rss {
 
 @media (max-width: 767px) {
     .header-layout1 .header-logo .logo-bg {
-        display: none
+        background-color: transparent;
+        position: static;
+        width: auto;
+        height: 20px;
+    }
+    
+    .header-logo img {
+        margin-top: -70px;
+        max-width: 120px;
+    }
+    
+    /* Mobile sticky header logo adjustment */
+    .sticky-wrapper.sticky .header-logo img {
+        margin-top: -75px;
     }
 }
 

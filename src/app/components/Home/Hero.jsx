@@ -252,6 +252,160 @@ const Hero = () => {
           <div className="slider-pagination"></div>
         </div>
       </div>
+<div
+  className="about-1-wrapper space bg-smoke2"
+  id="about-sec"
+  style={{ position: "relative" }} // key for absolutely positioned shapes
+>
+  {/* left/bottom shape */}
+  <div
+    className="shape-mockup jump"
+    style={{
+      position: "absolute",
+      left: "0%",
+      bottom: "0%",
+      pointerEvents: "none",
+      zIndex: 0,
+    }}
+  >
+    <img
+      src="/assets/img/shape/about1-left-shape.png"
+      alt="image"
+      style={{ display: "block", maxWidth: "100%", height: "auto" }}
+    />
+  </div>
+
+  {/* top/right shape */}
+  <div
+    className="shape-mockup jump"
+    style={{
+      position: "absolute",
+      top: "11%",
+      right: "4%",
+      pointerEvents: "none",
+      zIndex: 0,
+    }}
+  >
+    <img
+      src="/assets/img/shape/about1-right-top.png"
+      alt="image"
+      style={{ display: "block", maxWidth: "100%", height: "auto" }}
+    />
+  </div>
+
+  {/* bottom/right shape (hidden on < md like your original) */}
+  <div
+    className="shape-mockup jump-reverse d-none d-md-block"
+    style={{
+      position: "absolute",
+      right: 0,
+      bottom: "4%",
+      pointerEvents: "none",
+      zIndex: 0,
+    }}
+  >
+    <img
+      src="/assets/img/shape/about1-right-bottom.png"
+      alt="image"
+      style={{ display: "block", maxWidth: "100%", height: "auto" }}
+    />
+  </div>
+
+  <div className="container" style={{ position: "relative", zIndex: 1 }}>
+    <div className="row gy-40 gx-60 align-items-center">
+      <div className="col-xl-7 mb-xl-0">
+        <div className="img-box1 about-1">
+          {/* logo shape */}
+          <div className="shape-mockup logo-shape" style={{ position: "absolute", zIndex: 2 }}>
+            <div className="logo-icon-wrap">
+              <h4 className="logo-icon" style={{ margin: 0 }}>
+                <img
+                  src="/assets/img/icon/logo-icon-white.png"
+                  alt="img"
+                  style={{ display: "block", height: "auto" }}
+                />
+              </h4>
+              <div className="logo-icon-wrap__text bg-theme2">
+                <span className="logo-animation">Best Lawyer For You</span>
+              </div>
+            </div>
+          </div>
+
+          {/* main images */}
+          <div className="img1">
+            <img
+              className="tilt-active"
+              src="/assets/img/about/about-1-left.jpg"
+              alt="Image"
+              style={{ display: "block", width: "100%", height: "auto" }}
+            />
+          </div>
+          <div className="img2">
+            <div className="img2-top">
+              <img
+                className="tilt-active"
+                src="/assets/img/about/about-1-right.jpg"
+                alt="Image"
+                style={{ display: "block", width: "100%", height: "auto" }}
+              />
+            </div>
+            <div className="img2-bottom">
+              <img
+                className="tilt-active"
+                src="/assets/img/about/about-1-right-2.jpg"
+                alt="Image"
+                style={{ display: "block", width: "100%", height: "auto" }}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-xl-5">
+        <div className="title-area mb-25">
+          <span className="sub-title before-none">About Us</span>
+          <h2 className="sec-title">A Legacy of Legal Excellence</h2>
+          <p className="sec-text">
+            Our team of experienced attorneys has a diverse range of expertise,
+            covering a wide spectrum of legal areas. We specialize in corporate
+            law, family law.
+          </p>
+        </div>
+
+        {/* If Font Awesome isn’t loaded, swap <i> for inline SVG checks */}
+        <div className="checklist style2 mb-40">
+          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            {[
+              "Committed to excellence in legal practice.",
+              "Act with honesty and uphold ethical principles.",
+              "Road Test Preparation with 98% success",
+              "Meeting clients' needs is our priority.",
+            ].map((t) => (
+              <li key={t} style={{ display: "flex", gap: 10, alignItems: "center", marginBottom: 10 }}>
+                <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M20 6L9 17l-5-5" fill="none" stroke="currentColor" strokeWidth="2" />
+                </svg>
+                {t}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <a href="/about.html" className="th-btn style4">
+            More About
+            {/* inline arrow if FA isn’t available */}
+            <span style={{ display: "inline-flex", marginLeft: 8 }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 5l7 7-7 7" fill="none" stroke="currentColor" strokeWidth="2" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
       {/* a tiny local style to guarantee the hero has height */}
       <style jsx>{`

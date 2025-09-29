@@ -77,77 +77,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="widget">
-            <h3 className="widget_title">Recent Posts</h3>
-            <div className="recent-post-wrap">
-              <div className="recent-post">
-                <div className="media-img">
-                  <Link href="/blog-details">
-                    <Image 
-                      src="/assets/img/blog/recent-post-1-1.jpg" 
-                      alt="Blog Image" 
-                      width={80} 
-                      height={80} 
-                    />
-                  </Link>
-                </div>
-                <div className="media-body">
-                  <h4 className="post-title">
-                    <Link className="text-inherit" href="/blog-details">
-                      Steps to Pursue a Career as a Legal Project Manager.
-                    </Link>
-                  </h4>
-                  <div className="recent-post-meta">
-                    <Link href="/blog">6 Sep, 2025</Link>
-                  </div>
-                </div>
-              </div>
-              <div className="recent-post">
-                <div className="media-img">
-                  <Link href="/blog-details">
-                    <Image 
-                      src="/assets/img/blog/recent-post-1-2.jpg" 
-                      alt="Blog Image" 
-                      width={80} 
-                      height={80} 
-                    />
-                  </Link>
-                </div>
-                <div className="media-body">
-                  <h4 className="post-title">
-                    <Link className="text-inherit" href="/blog-details">
-                      The advantages of choosing a public defender.
-                    </Link>
-                  </h4>
-                  <div className="recent-post-meta">
-                    <Link href="/blog">6 Sep, 2025</Link>
-                  </div>
-                </div>
-              </div>
-              <div className="recent-post">
-                <div className="media-img">
-                  <Link href="/blog-details">
-                    <Image 
-                      src="/assets/img/blog/recent-post-1-3.jpg" 
-                      alt="Blog Image" 
-                      width={80} 
-                      height={80} 
-                    />
-                  </Link>
-                </div>
-                <div className="media-body">
-                  <h4 className="post-title">
-                    <Link className="text-inherit" href="/blog-details">
-                      Technology is revolutionizing the legal sector.
-                    </Link>
-                  </h4>
-                  <div className="recent-post-meta">
-                    <Link href="/blog">6 Sep, 2025</Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div className="widget newsletter-widget">
             <h3 className="widget_title">Newsletter</h3>
             <p className="footer-text">Sign up to get update news about us</p>
@@ -185,52 +115,17 @@ const Navbar = () => {
           </div>
           <div className="th-mobile-menu">
             <ul>
-              <li className="menu-item-has-children">
+              <li>
                 <Link href="/">Home</Link>
-                <ul className="sub-menu">
-                  <li className="menu-item-has-children">
-                    <Link href="#">Multipage</Link>
-                    <ul className="sub-menu">
-                      <li><Link href="/">Home Law Agency</Link></li>
-                      <li><Link href="/home-2">Home Lawyer</Link></li>
-                      <li><Link href="/home-3">Home Legal Consultant</Link></li>
-                      <li><Link href="/home-4">Home Legal Advisore</Link></li>
-                      <li><Link href="/home-5">Home Law Consultant</Link></li>
-                    </ul>
-                  </li>
-                </ul>
+                
               </li>
-              <li className="menu-item-has-children">
-                <Link href="#">About Us</Link>
-                <ul className="sub-menu">
-                  <li><Link href="/about">About Us Style 1</Link></li>
-                  <li><Link href="/about2">About Us Style 2</Link></li>
-                </ul>
+              <li>
+                <Link href="/about">About Us</Link>
+                
               </li>
-              <li className="menu-item-has-children">
+              <li>
                 <Link href="#">Service</Link>
-                <ul className="sub-menu">
-                  <li><Link href="/service">Service</Link></li>
-                  <li><Link href="/service-details">Service Details</Link></li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <Link href="#">Pages</Link>
-                <ul className="sub-menu">
-                  <li><Link href="/team">Our Attorney</Link></li>
-                  <li><Link href="/team-details">Attorney Details</Link></li>
-                  <li><Link href="/pricing">Pricing Plan</Link></li>
-                  <li><Link href="/testimonials">Testimonials</Link></li>
-                  <li><Link href="/faq">Faq Page</Link></li>
-                  <li><Link href="/case-studies">Case Studies</Link></li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <Link href="#">Blog</Link>
-                <ul className="sub-menu">
-                  <li><Link href="/blog">Blog</Link></li>
-                  <li><Link href="/blog-details">Blog Details</Link></li>
-                </ul>
+                
               </li>
               <li><Link href="/contact">Contact</Link></li>
             </ul>
@@ -253,7 +148,7 @@ const Navbar = () => {
                     </li>
                     <li>
                       <i className="fas fa-envelope"></i>
-                      <Link href="mailto:info@ensaf.com">info@ensaf.com</Link>
+                      <Link href="mailto:info@ensaf.com">info@verdicta.com</Link>
                     </li>
                     <li>
                       <i className="fas fa-map-marker-alt"></i>
@@ -305,7 +200,7 @@ const Navbar = () => {
                         <Link href="/">Home</Link>
                       </li>
                       <li>
-                        <Link href="#">About Us</Link>
+                        <Link href="/about">About Us</Link>
                       </li>
                       <li>
                         <Link href="#">Service</Link>

@@ -24,15 +24,15 @@ export default function Footer() {
 
             <div className="col-md-6 col-xl-auto footer-border-right">
               <div className="widget widget_nav_menu footer-widget">
-                <h3 className="widget_title">Our Services</h3>
+                <h3 className="widget_title">Legal Services</h3>
                 <div className="menu-all-pages-container">
                   <ul className="menu">
-                    <li><a href="service-details.html">Real Estate Law</a></li>
+                    <li><a href="service-details.html">Criminal Defense</a></li>
                     <li><a href="service-details.html">Personal Injury</a></li>
-                    <li><a href="service-details.html">Corporate Law</a></li>
-                    <li><a href="service-details.html">Criminal Law</a></li>
-                    <li><a href="service-details.html">Health Care</a></li>
+                    <li><a href="service-details.html">Business Law</a></li>
                     <li><a href="service-details.html">Family Law</a></li>
+                    <li><a href="service-details.html">Real Estate Law</a></li>
+                    <li><a href="service-details.html">Estate Planning</a></li>
                   </ul>
                 </div>
               </div>
@@ -64,8 +64,9 @@ export default function Footer() {
 </div>
 
                   <p className="about-text">
-                    Verdicta is a Saudi Arabian law firm founded in 1982. They offer a
-                    wide range of legal services, including corporate law, commercial law.
+                    Verdicta is Alabama's premier law firm established in Birmingham. We provide 
+                    comprehensive legal services including criminal defense, personal injury, 
+                    business law, and family law throughout Alabama.
                   </p>
                   <div className="th-social">
                     <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
@@ -84,7 +85,7 @@ export default function Footer() {
                     <div className="info-box_icon"><i className="fas fa-regular fa-location-dot"></i></div>
                     <div className="info-contnt">
                       <h4 className="footer-info-title">Location</h4>
-                      <p className="info-box_text">371 7th Ave, New York, NY 10001</p>
+                      <p className="info-box_text">2121 8th Avenue North, Birmingham, AL 35203</p>
                     </div>
                   </div>
 
@@ -93,9 +94,9 @@ export default function Footer() {
                     <div className="info-contnt">
                       <h4 className="footer-info-title">Phone</h4>
                       <p className="info-box_text">
-                        <a href="tel:+15264855467" className="info-box_link">+ 152-6485-5467</a>
+                        <a href="tel:+12055551234" className="info-box_link">+ (205) 555-1234</a>
                         {" "}
-                        <a href="tel:+15264855467" className="info-box_link">+ 152-6485-5467</a>
+                        <a href="tel:+12055552468" className="info-box_link">+ (205) 555-2468</a>
                       </p>
                     </div>
                   </div>
@@ -105,9 +106,9 @@ export default function Footer() {
                     <div className="info-contnt">
                       <h4 className="footer-info-title">Email</h4>
                       <p className="info-box_text">
-                        <a href="mailto:info@kleanix.com" className="info-box_link">info@Verdicta.com</a>
+                        <a href="mailto:info@verdictalegal.com" className="info-box_link">info@verdictalegal.com</a>
                         {" "}
-                        <a href="mailto:info@kleanix.com" className="info-box_link">info@Verdicta.com</a>
+                        <a href="mailto:contact@verdictalegal.com" className="info-box_link">contact@verdictalegal.com</a>
                       </p>
                     </div>
                   </div>

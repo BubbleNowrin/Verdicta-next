@@ -1,10 +1,18 @@
 const Contact = () => {
   return (
     <section className="space overflow-hidden" id="contact-sec">
-      <div className="shape-mockup jump d-none d-xl-block" data-top="15%" data-right="3%">
+      <div
+        className="shape-mockup jump d-none d-xl-block"
+        data-top="15%"
+        data-right="3%"
+      >
         <img src="/assets/img/shape/contact-1-top.png" alt="shape img" />
       </div>
-      <div className="shape-mockup jump-reverse d-none d-xl-block" data-bottom="17%" data-left="3%">
+      <div
+        className="shape-mockup jump-reverse d-none d-xl-block"
+        data-bottom="17%"
+        data-left="3%"
+      >
         <img src="/assets/img/shape/about1-right-top.png" alt="shape img" />
       </div>
 
@@ -15,21 +23,47 @@ const Contact = () => {
             <div className="col-xl-6">
               <div className="contact-form">
                 <div className="title-area mb-35">
-                  <span className="sub-title justify-content-center text-white">Have Any Questions?</span>
-                  <h4 className="sec-title text-white">Get in Touch with Us</h4>
+                  <span className="sub-title justify-content-center text-white">
+                    Need Legal Assistance?
+                  </span>
+                  <h4 className="sec-title text-white">
+                    Contact Verdicta Today
+                  </h4>
                 </div>
-                <form action="mail.php" method="POST" className="quote-form ajax-contact">
+                <form
+                  action="mail.php"
+                  method="POST"
+                  className="quote-form ajax-contact"
+                >
                   <div className="row">
                     <div className="form-group col-md-12">
-                      <input type="text" className="form-control" name="name" id="name" placeholder="Name" />{" "}
+                      <input
+                        type="text"
+                        className="form-control"
+                        name="name"
+                        id="name"
+                        placeholder="Name"
+                      />{" "}
                       <i className="fas fa-user"></i>
                     </div>
                     <div className="form-group col-md-6">
-                      <input type="email" className="form-control" name="email" id="email" placeholder="Email" />{" "}
+                      <input
+                        type="email"
+                        className="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                      />{" "}
                       <i className="fas fa-envelope"></i>
                     </div>
                     <div className="form-group col-md-6">
-                      <input type="tel" className="form-control" name="number" id="number" placeholder="Number" />{" "}
+                      <input
+                        type="tel"
+                        className="form-control"
+                        name="number"
+                        id="number"
+                        placeholder="Number"
+                      />{" "}
                       <i className="fas fa-phone"></i>
                     </div>
                     <div className="form-group col-12">
@@ -45,7 +79,8 @@ const Contact = () => {
                     </div>
                     <div className="form-btn col-12 mt-2">
                       <button className="th-btn bg-theme w-100" type="submit">
-                        Send Now <i className="fas fa-regular fa-arrow-right-long"></i>
+                        Send Now{" "}
+                        <i className="fas fa-regular fa-arrow-right-long"></i>
                       </button>
                     </div>
                   </div>
@@ -58,29 +93,51 @@ const Contact = () => {
             <div className="col-xl-6" style={{ position: "relative" }}>
               <div className="contact-icon-box-wrap">
                 <div className="info-box">
-                  <div className="info-box_icon"><i className="fas fa-regular fa-location-dot"></i></div>
+                  <div className="info-box_icon">
+                    <i className="fas fa-regular fa-location-dot"></i>
+                  </div>
                   <div className="info-contnt">
                     <h4 className="footer-info-title">Location</h4>
-                    <p className="info-box_text">371 7th Ave, New York, NY 10001</p>
-                  </div>
-                </div>
-                <div className="info-box">
-                  <div className="info-box_icon"><i className="fas fa-regular fa-phone"></i></div>
-                  <div className="info-contnt">
-                    <h4 className="footer-info-title">Phone</h4>
                     <p className="info-box_text">
-                      <a href="tel:+15264855467" className="info-box_link">+ 152-6485-5467</a>{" "}
-                      <a href="tel:+15264855467" className="info-box_link">+ 152-6485-5467</a>
+                      2121 8th Avenue North, Birmingham, AL 35203
                     </p>
                   </div>
                 </div>
                 <div className="info-box">
-                  <div className="info-box_icon"><i className="fa-regular fa-envelope"></i></div>
+                  <div className="info-box_icon">
+                    <i className="fas fa-regular fa-phone"></i>
+                  </div>
+                  <div className="info-contnt">
+                    <h4 className="footer-info-title">Phone</h4>
+                    <p className="info-box_text">
+                      <a href="tel:+12055551234" className="info-box_link">
+                        + (205) 555-1234
+                      </a>{" "}
+                      <a href="tel:+12055552468" className="info-box_link">
+                        + (205) 555-2468
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="info-box">
+                  <div className="info-box_icon">
+                    <i className="fa-regular fa-envelope"></i>
+                  </div>
                   <div className="info-contnt">
                     <h4 className="footer-info-title">Email</h4>
                     <p className="info-box_text">
-                      <a href="mailto:info@ensaf.com" className="info-box_link">info@ensaf.com</a>{" "}
-                      <a href="mailto:info@ensaf.com" className="info-box_link">info@ensaf.com</a>
+                      <a
+                        href="mailto:info@verdictalegal.com"
+                        className="info-box_link"
+                      >
+                        info@verdictalegal.com
+                      </a>{" "}
+                      <a
+                        href="mailto:contact@verdictalegal.com"
+                        className="info-box_link"
+                      >
+                        contact@verdictalegal.com
+                      </a>
                     </p>
                   </div>
                 </div>

@@ -4,23 +4,23 @@ const Newsletter = () => {
       className="news-letter-1-wrapper"
       // Inline background + layout
       style={{
-        backgroundImage: 'url(/assets/img/bg/footer-1-top-right.jpg)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        position: 'relative',
-        overflow: 'hidden',
+        backgroundImage: "url(/assets/img/bg/footer-1-top-right.jpg)",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        position: "relative",
+        overflow: "hidden",
       }}
     >
       {/* Decorative shape (kept non-interactive so it won't block the input) */}
       <div
         className="shape-mockup jump d-none d-xxl-block z-index-3"
         style={{
-          position: 'absolute',
-          top: '10%',
+          position: "absolute",
+          top: "10%",
           left: 0,
           zIndex: 3,
-          pointerEvents: 'none',
+          pointerEvents: "none",
         }}
       >
         <img src="/assets/img/icon/footer-1-top.png" alt="shape" />
@@ -31,9 +31,9 @@ const Newsletter = () => {
         <div
           className="subscribe-box newsletter-fix-wrap"
           style={{
-            position: 'relative',
+            position: "relative",
             zIndex: 5,
-            padding: '40px 24px',
+            padding: "40px 24px",
             borderRadius: 16,
           }}
         >
@@ -41,15 +41,15 @@ const Newsletter = () => {
             <div className="col-xl-6">
               <p
                 className="subscribe-box_text"
-                style={{ marginBottom: 8, color: 'rgba(0,0,0,0.8)' }}
+                style={{ marginBottom: 8, color: "rgba(0,0,0,0.8)" }}
               >
-                Newsletter
+                Legal Updates Newsletter
               </p>
               <h4
                 className="subscribe-box_title"
                 style={{ margin: 0, fontWeight: 700 }}
               >
-                Sign Up to get latest Update
+                Stay Informed with Alabama Legal News
               </h4>
             </div>
 
@@ -57,13 +57,13 @@ const Newsletter = () => {
               <form
                 className="newsletter-form newsletter-fix"
                 style={{
-                  display: 'flex',
+                  display: "flex",
                   gap: 12,
-                  alignItems: 'stretch',
+                  alignItems: "stretch",
                   marginTop: 16,
                 }}
               >
-                <div className="form-group" style={{ flex: '1 1 auto' }}>
+                <div className="form-group" style={{ flex: "1 1 auto" }}>
                   <input
                     className="form-control"
                     type="email"
@@ -71,15 +71,15 @@ const Newsletter = () => {
                     required
                     aria-label="Email address"
                     style={{
-                      display: 'block',
-                      width: '100%',
+                      display: "block",
+                      width: "100%",
                       minHeight: 56,
-                      padding: '0 16px',
+                      padding: "0 16px",
                       borderRadius: 8,
-                      border: '1px solid rgba(0,0,0,0.12)',
-                      background: '#fff',
-                      color: '#111',
-                      outline: 'none',
+                      border: "1px solid rgba(0,0,0,0.12)",
+                      background: "#fff",
+                      color: "#111",
+                      outline: "none",
                     }}
                   />
                 </div>
@@ -88,16 +88,17 @@ const Newsletter = () => {
                   className="th-btn theme-bg"
                   style={{
                     height: 56,
-                    lineHeight: '56px',
-                    padding: '0 20px',
-                    display: 'inline-flex',
-                    alignItems: 'center',
+                    lineHeight: "56px",
+                    padding: "0 20px",
+                    display: "inline-flex",
+                    alignItems: "center",
                     gap: 8,
-                    whiteSpace: 'nowrap',
+                    whiteSpace: "nowrap",
                     borderRadius: 8,
                   }}
                 >
-                  Subscribe Now <i className="fas fa-regular fa-arrow-right-long"></i>
+                  Subscribe Now{" "}
+                  <i className="fas fa-regular fa-arrow-right-long"></i>
                 </button>
               </form>
             </div>
